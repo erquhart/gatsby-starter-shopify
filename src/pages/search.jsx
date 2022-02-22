@@ -48,6 +48,7 @@ export async function getServerData({ query, ...rest }) {
     query,
     count: DEFAULT_PRODUCTS_PER_PAGE,
   })
+  console.log(products)
 
   return {
     props: {
